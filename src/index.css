@@ -32,6 +32,7 @@ code {
 .featurette-item-container {
   display: flex;
   justify-content: space-evenly;
+  border-bottom: 1px solid lightgrey;
   padding: 40px 0 40px 0;
 }
 
@@ -42,4 +43,23 @@ code {
 
 .featurette-image {
   width: 500px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+
+.footer-left {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .featurette-item-container {
+    display: flex;
+    flex-direction: column;
+  }
 }

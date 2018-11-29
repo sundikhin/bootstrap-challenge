@@ -17,6 +17,12 @@ export default class FeaturetteContainer extends PureComponent {
 					headerCaption="Donuc ullcopter sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 					headerImgSrc="https://scontent-iad3-1.cdninstagram.com/vp/85855b405ce32ef3416b2bd643fd9309/5CA55BCA/t51.2885-15/e35/42698921_2102499313398016_4981238112631112508_n.jpg"
 				/>
+
+				<FeaturetteLeft 
+					headerText="And lastly, this one. Checkmate."
+					headerCaption="Donuc ullcopter sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+					headerImgSrc="https://scontent-iad3-1.cdninstagram.com/vp/35ef3ba77b853101f2799c7b64ea1353/5CAC94D2/t51.2885-15/sh0.08/e35/s640x640/37558743_522513228185862_6820994810120241152_n.jpg"
+				/>
       </div>
     )
   }

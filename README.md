@@ -1,44 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Questions
 
-### `npm start`
+### What front-end component libraries or frameworks have you used besides bootstrap?
+Material UI, Tailwind.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### What tools would you implement to enforce code quality rules and standards? 
+Aside from tests (which all applications should have) Prop Types for React projects really help force the programmer to lay out the type of props they're passing into components. This promotes code quality because if a backend endpoint changes, or data gets mutated up the chain, the component knows that it was expecting one thing but is getting something else.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### What HTML templating languages or engines have you used?
+Handlebars, Mustache, Slim
 
-### `npm test`
+### Which code related blogs or sites do you read regularly?
+CSS Tricks is my go-to for all frontend related things. There are some posts on there I keep up for reference at all times, and there are some posts there that I just like to learn from and see what is new.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### In Sass, what is the significance of using an underscore at the beginning of a sass file name?
+It signifies that the file in question is a CSS file for a partial template. So `universal.scss` or `colors.scss` would be for the entire project, whereas `_header.scss` would be styles for only the header.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Name a few (npm) node modules that you think are most useful?
+Webpack, Babel
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Given the option to choose Angular, React or Vue.js for a new project which would you choose and why? What type of requirements might affect your decision to use one over the other?
+I believe that every project is different, and that there are different aspects of projects to consider when looking at frameworks and libraries. For heavy route-specific work, I’d take a look at (recent versions of) Angular and Vue. They have great built in routing, whereas in React, one would have to pull in additional helper libraries like React-Router. For web applications that deal with heavy sets of data and need to run quickly and update quickly, I’d look at React, since it was built for a virtual DOM and rendering data in smaller components versus the whole page is beneficial in those cases.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### If you were referred to an unfamiliar node project repo, what file or files would you first look to, to determine the commands to run, build and test the project?
+I’d take a look at the package.json file to get an understanding of what requirements and dependencies are in the project, as well as the config files to see what commands compile the project.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What is the benefit of using the HTML ‘nav’ element vs. a div with the class of .nav?
+Screen readers have an easier time identifying semantic HTML, therefore a native nav element is more accessible markup than a div with a .nav class.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### What code related framework, library or language do you want to learn next?
+Vue, GraphQL, Gatsby
