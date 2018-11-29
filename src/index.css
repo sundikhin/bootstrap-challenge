@@ -12,3 +12,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.content-bubble-container {
+  padding: 4%
+}
+
+.bubble-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.featurette-container {
+  padding: 20px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.featurette-item-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0 40px 0;
+}
+
+.featurette-column-text {
+  text-align: left;
+  max-width: 630px;
+}
+
+.featurette-image {
+  width: 500px;
+}

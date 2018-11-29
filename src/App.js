@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import HeaderNav from './HeaderNav';
+import Carousel from './Carousel';
+import ContentBubble from './ContentBubble';
+import FeaturetteContainer from './FeaturetteContainer';
 import './App.css';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
-
-        <section>
-          This is init commit
-        </section>
+        <HeaderNav />
+        <Carousel />
+        <ContentBubble />
+        <FeaturetteContainer />
       </div>
     );
   }
